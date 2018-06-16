@@ -9,7 +9,7 @@ let Commands = require('./commands');
 Commands = new Commands;
 
 const token = '618660015:AAE6Kll-1niJgZwWsPnsqVgi8VGw194pV6Y';
-const bot = new TelegramBot(token, {polling: true});
+const bot = new TelegramBot(token);
 
 // db instance connection
 require("./configs/db");
