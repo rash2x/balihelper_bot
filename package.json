@@ -1,11 +1,12 @@
 {
   "dependencies": {
+    "dotenv": "^6.0.0",
     "mongodb": "^3.0.10",
     "mongoose": "^5.1.5",
     "node-fetch": "^2.1.2",
     "node-telegram-bot-api": "^0.30.0"
   },
   "scripts": {
-    "start": "node app.js"
+    "start": "node index.js"
   }
 }
