@@ -2,7 +2,7 @@ const ACTIONS = require('./actions');
 
 module.exports = {
     'START': [
-        [ACTIONS['RENT_BIKE'], ACTIONS['CALL_TAXI'], ACTIONS['INSTRUCTOR']],
+        [ACTIONS['RENT_BIKE']],[ACTIONS['CALL_TAXI']],[ACTIONS['INSTRUCTOR']],
         // [ACTIONS['EXCHANGE_MONEY']],
         // [ACTIONS['BUY_FRUITS']]
     ],
