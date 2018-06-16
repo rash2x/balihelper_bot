@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "mongodb": "^3.0.10",
+    "mongoose": "^5.1.5",
+    "node-fetch": "^2.1.2",
+    "node-telegram-bot-api": "^0.30.0"
+  }
+}
