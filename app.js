@@ -98,3 +98,5 @@ bot.onText(new RegExp(ACTIONS['BACK']), (msg) => {
 bot.on('message', (msg) => {
     Commands.send(bot, msg);
 });
+
+return 1;
