@@ -1,10 +1,10 @@
 require('./configs/db');
 require('dotenv').load();
 
-module.exports = function(event, context, callback) {
+module.exports = function() {
     const TelegramBot = require('node-telegram-bot-api');
     const token = process.env.telegramToken ? process.env.telegramToken : '618660015:AAE6Kll-1niJgZwWsPnsqVgi8VGw194pV6Y';
-    const bot = new TelegramBot(token);
+    const bot = new TelegramBot(token, {polling: true});
 
     let Commands = require('./commands');
     Commands = new Commands;
