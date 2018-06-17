@@ -1,2 +1,2 @@
-const app = require('./app');
-module.exports = app();
+const bot = require('./bot/bot');
+bot();
