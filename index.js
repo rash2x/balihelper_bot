@@ -1,2 +1,1 @@
-const bot = require('./bot/bot');
-bot();
+require('./bot/bot');
